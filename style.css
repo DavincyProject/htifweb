@@ -358,7 +358,7 @@ body {
 }
 
 
-@media screen and (min-width: 375px) and (max-width: 900px) {
+@media screen and (min-width: 375px) {
   .wrapper {
     display: flex;
     flex-direction: column;
@@ -429,6 +429,9 @@ body {
   .wrapper-card, .wrapper-card2 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -19px;
   }
 
   .profile-card {
