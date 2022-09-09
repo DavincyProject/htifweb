@@ -356,3 +356,83 @@ body {
 .background-team {
   z-index: 1;
 }
+
+
+@media screen and (min-width: 375px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-content h1 {
+    font-size: 70px;
+    align-items: center;
+  }
+
+  .loader span {
+    margin-left: -125px;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
+  .hero img{
+    width: 280px;
+    height: 280px;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .title h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+
+  .title img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .wrapper-card, .wrapper-card2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-card {
+    width: 100%;
+    margin: 10px;
+  }
+}
