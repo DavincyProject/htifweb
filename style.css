@@ -358,7 +358,7 @@ body {
 }
 
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 900px) {
   .wrapper {
     display: flex;
     flex-direction: column;
