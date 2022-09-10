@@ -428,6 +428,42 @@ nav {
   z-index: 1;
 }
 
+.aditional-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-change-2x {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	-webkit-animation: color-change-2x 2s linear infinite alternate both;
+	animation: color-change-2x 2s linear infinite alternate both;
+  border-radius: 20px;
+  width: 90%;
+  height: 600px;
+  z-index: -1;
+}
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+
+
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
   nav {
