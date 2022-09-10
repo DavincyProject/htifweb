@@ -374,10 +374,6 @@ body {
   */
 }
 
-.avatar {
-  margin: 10px;
-}
-
 .title-card {
   display: flex;
   justify-content: center;
@@ -506,5 +502,19 @@ body {
   .profile-card {
     width: 100%;
     margin: 10px;
+  }
+
+  .position-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .position-img img {
+    width: 120px;
+    height: 120px;
   }
 }
