@@ -17,8 +17,8 @@
                 <a href="index.html"><img src="images/logo.png" alt="logo"/></a>
 
                 <div class="nav-child">
+                    <a href="#">Home</a>
                     <a href="#team">Teams</a>
-                    <a href="#">How it Works</a>
                     <a href="#">Pricing</a>
                     <a href="#">About Us</a>
                 </div>
@@ -51,13 +51,12 @@
             <div class="title">
                 <h1 class="focus-in-contract-bck">Our accommodation</h1>
                 <div class="position-img">
-                    <img class="text-focus-in" src="images/AppsLogo/discord.png">
-                    <img class="text-focus-in" src="images/AppsLogo/netflix480.svg">
-                    <img class="text-focus-in" src="images/AppsLogo/gmail.png">
+                    <a href="https://discord.gg/RkQnhDxD" target="_blank"><img class="text-focus-in" src="images/AppsLogo/discord.png"></a>
+                    <a href="https:/netflix.com" target="_blank"><img class="text-focus-in" src="images/AppsLogo/netflix480.svg"></a>
+                    <a href="https://gmail.com" target="_blank"><img class="text-focus-in" src="images/AppsLogo/gmail.png"></a>
                 </div>
             </div>
         </div>
-
         
         <section id="team">
             <div class="background-team">  
@@ -185,6 +184,11 @@
         </section>
     </div>
 
-    <script href="script.js"></script>
+    <script href="script.js">
+        window.addEventListener("scroll", function(){
+        var nav = document.querySelector("nav");
+        nav.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
 </body>
 </html>
