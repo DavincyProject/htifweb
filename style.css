@@ -348,14 +348,21 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: white;
-  border : 1px solid white;
+  background-color: none;
+  border : none;
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  margin-top: -15px;
+  margin-top: 15px;
   object-fit: cover;
+  margin-top: -15px;
+  /*
   box-shadow: rgba(127, 117, 241, 1) 0px 10px 15px -3px, rgba(127, 117, 241, 1) 0px 4px 6px -2px;
+  */
+}
+
+.avatar {
+  margin: 10px;
 }
 
 .title-card {
@@ -377,17 +384,11 @@ body {
 .description h1 {
   text-align: center;
   margin-top: 10px;
-  color: black;
-  text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #0fa,
-      0 0 82px #0fa,
-      0 0 92px #0fa,
-      0 0 102px #0fa,
-      0 0 151px #0fa;
+  color: white;
 }
+
+.description a{
+  font-style: italic;
 }
 
 .description p {
@@ -395,6 +396,7 @@ body {
   width: 100%;
   align-items: center;
   justify-content: center;
+  font-style: italic;
 }
 
 .wrapper-card2 {
