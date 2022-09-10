@@ -185,11 +185,24 @@ body {
   margin-bottom: -150px;
 }
 
+.position-img{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 100px;
+}
+
+.position-img img {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  width: 200px;
+  height: 200px;
+}
+
 /* Animation Text Netflix*/
 
 .focus-in-contract-bck {
-	-webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   margin : 0px;
 }
 
@@ -229,8 +242,8 @@ body {
 }
 
 .text-focus-in {
-	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	-webkit-animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   margin: 0px;
 }
   
@@ -397,6 +410,10 @@ body {
   align-items: center;
   justify-content: center;
   font-style: italic;
+  font-size: 20px;
+  margin-top: 15px;
+  color: white;
+  font-family: 'Bespoke Stencil', sans-serif;
 }
 
 .wrapper-card2 {
