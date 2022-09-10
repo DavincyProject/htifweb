@@ -16,6 +16,12 @@ body {
     min-height: 200vh;
 }
 
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
 .wrapper {
     display: flex;
     justify-content: space-between;
@@ -424,6 +430,12 @@ body {
 
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
+  nav {
+    position: relative;
+    top: none;
+    z-index: none;
+  }
+
   .wrapper {
     display: flex;
     flex-direction: column;
